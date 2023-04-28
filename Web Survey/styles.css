@@ -120,6 +120,19 @@ textarea{
 	font-family:inherit;
 }
 
+.submit-button{
+	width: 100%;
+	height: 2.7rem;
+	margin: 0;
+	padding: 2rem auto;
+	border-radius: 0.25rem;
+	font-size: inherit;
+	font-family:inherit;
+	background-color: #33b249;
+	border: 0;
+	color: white;
+}
+
 
 
 
