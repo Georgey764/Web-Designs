@@ -1,4 +1,4 @@
-# georgey764-web-survey-design
+# georgey764-Web-Designs
 This depository includes my web design portfolios.
 
 Hi! these are my templates that I created using HTML and CSS.
