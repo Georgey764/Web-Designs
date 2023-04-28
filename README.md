@@ -1,4 +1,6 @@
 # georgey764-web-survey-design
-This is a web template for surveys
+Repository of my web design portfolios.
 
-Hi this web is a template I created for surveys using HTML and CSS.
+Hi these are my templates that I created using HTML and CSS.
+
+Web Survey Template: https://georgey764.github.io/georgey764-Web-Designs/Web%20Survey/Survey.html
