@@ -1,5 +1,5 @@
 # georgey764-Web-Designs
-This depository includes my web design portfolios.
+A depository including a list of web designs.
 
 These are the templates that I created using HTML and CSS.
 
