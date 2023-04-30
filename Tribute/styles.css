@@ -46,7 +46,7 @@ header{
 }
 
 .right-container{
-	width: min(400px, 40vw);
+	width: min(400px, 50vw);
 }
 
 nav > ul > li :hover {
@@ -58,6 +58,7 @@ nav > ul > li :hover {
 li > a{
 	text-decoration: none;
 	color: inherit;
+	margin: 0 0.25rem;
 }
 
 .red{
