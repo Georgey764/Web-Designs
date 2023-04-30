@@ -119,9 +119,9 @@ html, body{
 }
 
 .second-page p{
-	padding-left: 1rem;
 	display: inline-block;
-	width: max(40vw, 650px);
+	max-width: 650px;
+	width: min(100vw, 600px);
 }
 
 .second-page img{
@@ -133,14 +133,14 @@ html, body{
 .about-container{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-start;
 	width: 100%;
 	flex-wrap: wrap;
 	padding-top: 0.8rem;
 }
 
-p > a:visited{
+p > a, address > a:visited{
 	color:#787878;
 }
 
@@ -167,7 +167,7 @@ p > a:visited{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .discography-text{
