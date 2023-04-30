@@ -46,7 +46,7 @@ header{
 }
 
 .right-container{
-	width: min(400px, 50vw);
+	width: min(400px, 60vw);
 }
 
 nav > ul > li :hover {
