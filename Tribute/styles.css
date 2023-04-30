@@ -28,7 +28,7 @@ header{
 	height: inherit;
 	width: 100%;
 	display: flex;
-	margin-left: 5px;
+	margin: 0 20px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -38,7 +38,11 @@ header{
 	padding: 0;
 	font-weight: 400;
 	font-size: 1.65rem;
-	margin-left: 1.8rem;
+}
+
+.top-right{
+	margin: 0;
+	padding: 0;
 }
 
 nav > ul > li :hover {
@@ -58,7 +62,10 @@ li > a{
 
 .right-container{
 	width: 35%;
-	margin-left: 1.8rem;
+}
+
+.left-container{
+
 }
 
 nav > ul{
