@@ -68,7 +68,7 @@ li > a{
 nav > ul{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	list-style: none;
 	flex-wrap: wrap;
