@@ -52,12 +52,6 @@ li > a{
 	color: inherit;
 }
 
-.small-top{
-	font-size: 0.5rem;
-	vertical-align: top;
-	font-weight: 700;
-}
-
 .red{
 	color:#FF6666;
 }
@@ -127,7 +121,7 @@ html, body{
 .second-page p{
 	padding-left: 1rem;
 	display: inline-block;
-	max-width: 650px;
+	width: max(40vw, 650px);
 }
 
 .second-page img{
@@ -162,4 +156,53 @@ p > a:visited{
 	font-size: 2.25rem;
 	margin:0 0 0.75rem 0;
 	padding: 0;
+}
+
+.scroll-container{
+	height: 290px;
+	width: 100%;
+	padding: 0rem;
+	margin-top: 2.25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	overflow: hidden;
+}
+
+.discography-text{
+	font-size: 1.125rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.discography-text span{
+	width: 250px;
+	margin-right: 2rem;
+	text-align: center;
+	font-weight: 700;
+}
+
+.discography-figure{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.discography-figure img{
+	height: 250px;
+	width: 250px;
+	margin-right: 2rem;
+	border-radius: 0.25rem;
+}
+
+/* Footer */
+footer{
+	margin: 3rem auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 0.8rem;
 }
