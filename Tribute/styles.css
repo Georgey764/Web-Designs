@@ -46,7 +46,11 @@ header{
 }
 
 .right-container{
-	width: min(400px, 40vw);
+	width: min(500px, 45vw);
+}
+
+.left-container{
+	width: 45vw;
 }
 
 nav > ul > li :hover {
@@ -68,7 +72,7 @@ li > a{
 nav > ul{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	list-style: none;
 	flex-wrap: wrap;
