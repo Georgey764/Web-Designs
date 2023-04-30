@@ -57,8 +57,12 @@ body::before {
 }
 
 
-select:first-of-type {
+select:invalid {
 	color: grey;
+}
+
+select option{
+	color: black;
 }
 
 /* the background box */
