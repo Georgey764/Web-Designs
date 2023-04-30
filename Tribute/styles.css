@@ -1,1 +1,150 @@
+@media (prefers-reduced-motion: no-preference){
+	*{
+		scroll-behavior: smooth;
+	}
+}
 
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+/* Header */
+header{
+	font-family: "Monsterrat", sans-serif;
+	background-color: black;
+	color: white;
+	height: 60px;
+	padding: 0rem;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.container{
+	height: inherit;
+	width: 100%;
+	display: flex;
+	margin-left: 5px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-left{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 1.65rem;
+	margin-left: 1.8rem;
+}
+
+nav > ul > li:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+li > a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.red{
+	color:#FF6666;
+}
+
+.right-container{
+	width: 35%;
+}
+
+nav > ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style: none;
+	margin-right: -30px;
+}
+
+.divider-top{
+	border-bottom: 0.5px solid #333333;
+}
+
+/* BODY */
+html, body{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	font-family: "Monsterrat", sans-serif;
+}
+
+
+/* First Page */
+
+.first-page h2{
+	color: white;
+	text-align: center;
+	font-size: 75px;
+
+}
+
+.first-page{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ABOUT PAGE */
+
+.second-page{
+	color: #BABABA;
+	padding-top: 120px;
+	margin: 0 7.5rem;
+}
+
+.second-page h2{
+	font-size: 2.25rem;
+	margin: 0 0 0.75rem 0;
+	padding-top: 72px;
+}
+
+.divider{
+	width: 100%;
+	border-bottom: 2px solid #9C9C9C;
+}
+
+.second-page p{
+	padding-left: 1rem;
+	max-width: 50vw;
+	display: inline-block;
+}
+
+.second-page img{
+	display: inline-block;
+}
+
+.about-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+p > a:visited{
+	color:#787878;
+}
+
+/* Dicography Page */
+
+.discography-page{
+	color: #BABABA;
+	padding-top: 120px;
+	margin: 0 2rem;
+}
