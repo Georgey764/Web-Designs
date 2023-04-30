@@ -61,7 +61,7 @@ li > a{
 }
 
 .right-container{
-	width: 35%;
+	width: min(500px, 50vw);
 }
 
 .left-container{
@@ -75,7 +75,6 @@ nav > ul{
 	align-items: center;
 	list-style: none;
 	flex-wrap: wrap;
-	margin-right: -30px;
 }
 
 .divider-top{
