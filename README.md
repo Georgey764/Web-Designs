@@ -1,5 +1,5 @@
 # georgey764-Web-Designs
-A depository including a list of web designs.
+A repository including a list of web designs.
 
 These are the templates that I created using HTML and CSS:
 
