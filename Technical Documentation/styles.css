@@ -10,12 +10,12 @@
         top: 0;
         left: 0;
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         overflow: scroll;
     }
 
     .right-column{
-        margin: 500px;
+        margin-top: 500px;
     }
     
 }
@@ -28,12 +28,15 @@
 
 /* Left column */
 header{
+    position: fixed;
     width: inherit;
     height: 4rem;
     display: flex;
     font-family: "Open Sans", sans-serif;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-right: 1px solid black;
 }
 
 header span{
@@ -54,11 +57,11 @@ ul::before{
 }
 
 .container-left{
-    position: fixed;
     width: 300px;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid black;
     font-family: "Open sans", sans-serif;
+    overflow: scroll;
 }
 
 .left-box{
@@ -66,6 +69,7 @@ ul::before{
     padding:0;
     overflow: scroll;
     height: 100%;
+    margin-top: 4rem;
 }
 
 .left-text{
@@ -88,8 +92,11 @@ ul::before{
     position: absolute;
     top: 0px;
     left: 320px;
-    margin: 20px 20px 20px 0;
+    padding: 20px 20px 20px 0;
+    margin: 0;
     font-family: "Open Sans", sans-serif;
+    height:100%;
+    overflow: scroll;
 }
 
 h1{
