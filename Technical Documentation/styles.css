@@ -15,9 +15,10 @@
     }
 
     .right-column{
-        margin-top: 500px;
+        position: relative;
+        top: 500px;
+        left: 0;
     }
-    
 }
 
 *,
@@ -29,6 +30,8 @@
 /* Left column */
 header{
     position: fixed;
+    top: 0;
+    left: 0;
     width: inherit;
     height: 4rem;
     display: flex;
@@ -58,7 +61,7 @@ ul::before{
 
 .container-left{
     width: 300px;
-    height: 100vh;
+    height: 100%;
     border-right: 1px solid black;
     font-family: "Open sans", sans-serif;
     overflow: scroll;
@@ -67,8 +70,6 @@ ul::before{
 .left-box{
     margin: 0;
     padding:0;
-    overflow: scroll;
-    height: 100%;
     margin-top: 4rem;
 }
 
