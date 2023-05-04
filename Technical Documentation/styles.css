@@ -28,6 +28,8 @@ header{
 header span{
     margin: 0;
     font-size: 1.625rem;
+    background: white;
+    z-index: 100;
 }
 
 html, body{
@@ -44,7 +46,7 @@ ul::before{
 
 .container-left{
     width: 300px;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid black;
     font-family: "Open sans", sans-serif;
     overflow: scroll;
@@ -104,31 +106,45 @@ p{
     min-width: 100px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 500px){
+
+    header
+    {
+        position: static;
+    }
+
     .container-left{
         height: 200px;
         width: 100vw;
-        overflow: scroll;
         z-index: 2;
         background: white;
+        overflow: unset;
     }
 
     .box{
         border: 1px solid black;
+        height: calc(200px - 4rem);
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .left-box{
+        margin: 0rem;
     }
 
     ul::before{
         width: 100%;
         content:"";
         display:block;
+        border-width: 2px;
     }
     
 
     .right-column{
-        position: relative;
         margin-top: 200px;
         left: 0;
         padding: 40px;
+        height: unset;
     }
 }
 
