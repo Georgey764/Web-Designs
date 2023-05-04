@@ -113,6 +113,9 @@ p{
         background: white;
     }
 
+    .box{
+        border: 1px solid black;
+    }
 
     ul::before{
         width: 100%;
