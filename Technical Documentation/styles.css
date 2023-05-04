@@ -1,0 +1,117 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .container-left{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .right-column{
+        margin: 500px;
+    }
+    
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+/* Left column */
+header{
+    width: inherit;
+    height: 4rem;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+header span{
+    margin: 0;
+    font-size: 1.625rem;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+ul::before{
+    width: 300px;
+    content:"";
+    display:block;
+    border-top: 1px solid black;
+}
+
+.container-left{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid black;
+    font-family: "Open sans", sans-serif;
+}
+
+.left-box{
+    margin: 0;
+    padding:0;
+    overflow: scroll;
+    height: 100%;
+}
+
+.left-text{
+    width: 100%;
+    list-style: none;
+    height: 2.8rem;
+    border-bottom: 1px solid black;
+    padding-left: 1.5rem;
+    padding-top: 0.625rem;
+}
+
+.left-text a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Right Column */
+
+.right-column{
+    position: absolute;
+    top: 0px;
+    left: 320px;
+    margin: 20px 20px 20px 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.background{
+    display: flex;
+    flex-wrap: no-wrap;
+    min-width: 100px;
+    background: lightgray;
+    border-radius: 0.25rem;
+    z-index: -1;
+    padding: 1rem;
+    width: 100%;
+}
+
+p{
+    min-width: 100px;
+}
+
+
+
