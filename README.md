@@ -1,4 +1,4 @@
-# georgey764-Web-Designs
+# Web-Designs
 A repository including a list of web designs.
 
 These are the templates that I created using HTML and CSS:
