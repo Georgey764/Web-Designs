@@ -1,0 +1,158 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    padding: 0 10vw;
+    box-shadow: 0px 2px 10px -2px lightgray;
+    font-size: 0.95rem;
+    background-color: white;
+}
+
+/* Left header */ 
+.left-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.50rem;
+    width: 40vw;
+    margin: 0;
+}
+
+#logo{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+/* Right Header */
+.right-header{
+    width: 40vw;
+}
+
+.right-header-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    flex-wrap: wrap;
+}
+
+.right-header-text > li > a{
+    text-decoration: none;
+    color: grey;    
+}
+
+.right-header-text > li {
+    list-style: none;
+}
+
+/* Main - home page */
+.home-page{
+    left: 0;
+    padding-top: 10px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-picture{
+    margin:0;
+    padding: 0;
+}
+
+#home-pic{
+    height: min(40vw, 550px);
+    width: auto;
+}
+.home-text-container{
+    width: 50vw;
+    height: 550px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home-text-header{
+    font-size: 3rem;
+    margin: 0;
+}
+
+#home-text-subheader{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+#home-button{
+    background-color: #004CC7;
+    border: 0;
+    color: white;
+    height: 2rem;
+    border-radius: 1rem;
+    width: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* Specs Page */
+
+.specs-page{
+    background-color: #efe5fe;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specs-figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+#specs-pic{
+    height: min(40vw, 500px);
+}
+
+.specs-text-container{
+    padding: 40px 0 0 40px;
+    height: 100vh;
+    color: #722D80;
+}
+
+#specs-header-one{
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+#specs-header-two{
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/* Pricing Page */
