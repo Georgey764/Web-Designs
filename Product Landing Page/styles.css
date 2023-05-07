@@ -98,7 +98,7 @@ header{
     margin:0;
     padding: 0;
     width: 50vw;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 #home-pic{
@@ -162,21 +162,21 @@ button:hover{
     align-items: flex-end;
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     .specs-figure{
         height: unset;
     }
 }
 
 #specs-pic{
-    width: min(100vw, 600px);
+    width: min(100vw, 400px);
     height: auto;
     display: block;
 }
 
 .specs-text-container{
     padding: 20px 0 5vw 5vw;
-    width: max(50vw,500px);
+    width: max(50vw,400px);
     color: #722D80;
     display: flex;
     flex-direction: column;
