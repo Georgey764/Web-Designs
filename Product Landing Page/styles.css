@@ -304,6 +304,8 @@ button:hover{
 
 iframe{
     margin-top: 70px;
+    width: min(560px, 80vw);
+    height: min(45vw, 315px);
 }
 
 /* Footer */
