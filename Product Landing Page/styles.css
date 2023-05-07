@@ -70,7 +70,7 @@ header{
     left: 0;
     padding-top: 100px;
     padding-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 100px;
     height: auto;
     width: 100vw;
     display: flex;
@@ -82,11 +82,11 @@ header{
 
 @media(max-width: 600px){
     .left-header{
-        width: 20vw;
+        width: 5vw;
     }
 
     .right-header{
-        width: 60vw;
+        width: 90vw;
     }
 }
 
