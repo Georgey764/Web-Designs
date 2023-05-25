@@ -154,7 +154,8 @@ button:hover{
 }
 
 .specs-figure{
-    width: max(50vw, 600px);
+    width: min(40vw, 600px);
+
     height: 700px;
     background-color: #efe5fe;
     margin: 0;
@@ -170,7 +171,7 @@ button:hover{
     display: block;
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .specs-figure{
         height: unset;
         width: min(100vw, 400px);
@@ -182,7 +183,7 @@ button:hover{
 
 .specs-text-container{
     padding: 20px 0 5vw 5vw;
-    width: max(50vw,400px);
+    width: max(40vw,400px);
     color: #722D80;
     display: flex;
     flex-direction: column;
